@@ -1,7 +1,7 @@
 body{
     height: 100%;
     margin: 0px;
-    background-color: whitesmoke !important;
+    background-color: white !important;
 }
 
 html{
@@ -13,7 +13,13 @@ html{
     position: relative;
 }
 
+.black{
+    color:black !important;
+}
 
+.content{
+    text-align: center !important;
+}
 
 .dropdown-submenu>.dropdown-menu {
     top: 0;
@@ -61,4 +67,9 @@ html{
 
 .fixka{
     position:sticky !important;
+}
+
+img{
+    max-height: 300px;
+    margin: 0px;
 }

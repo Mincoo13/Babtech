@@ -61,7 +61,7 @@ var menu_items = `{
                         },
                         {
                             "id": "3.3.2",
-                            "name": "O mne",
+                            "name": "Moja hra",
                             "src": "milos_game.html"
                         }
                     ]

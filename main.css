@@ -73,3 +73,11 @@ img{
     max-height: 300px;
     margin: 0px;
 }
+
+.box{
+    background: whitesmoke;
+}
+
+.breadcrumbs{
+    background: white !important;
+}

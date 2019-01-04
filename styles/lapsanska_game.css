@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#puzzle_area {
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+#puzzle_pieces {
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+#puzzle_bg {
+    height: 495px;
+    width: 495px;
+    background-image: url("../images/img/bg.png");
+    opacity: .5;
+    position: relative;
+}
+
+#p_0 {
+    position: absolute;
+    z-index: 20;
+    top: 360px;
+    left: 8px;
+}
+
+#p_1 {
+    position: absolute;
+    z-index: 19;
+    top: 0px;
+    left: 5px;
+}
+
+#p_2 {
+    position: absolute;
+    z-index: 18;
+    top: -5px;
+    left: 339px;
+}
+#p_3 {
+    position: absolute;
+    z-index: 17;
+    top: 198px;
+    left: 142px;
+}
+#p_4 {
+    position: absolute;
+    z-index: 16;
+    top: -1px;
+    left: 150px;
+}
+#p_5 {
+    position: absolute;
+    z-index: 15;
+    top: 83px;
+    left: 236px;
+}
+#p_6 {
+    position: absolute;
+    z-index: 14;
+    top: 126px;
+    left: 13px;
+}
+#p_7 {
+    position: absolute;
+    z-index: 13;
+    top: 255px;
+    left: 312px;
+}
+#p_8 {
+    position: absolute;
+    z-index: 12;
+    top: 349px;
+    left: 189px;
+}
+#p_9 {
+     position: absolute;
+     z-index: 11;
+     top: 151px;
+     left: 326px;
+ }
+#p_10 {
+    position: absolute;
+    z-index: 10;
+    top: 229px;
+    left: 14px;
+}
+#p_11 {
+     position: absolute;
+     z-index: 9;
+     top: 336px;
+     left: 330px;
+ }
+
+#timer {
+    background-color: #ffbd87 ;
+    font-size: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    color: white ;
+    padding: 10px;
+}

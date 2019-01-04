@@ -83,17 +83,17 @@ for (var l = oldItems.length - 6; l < oldItems.length; l++) {
             break;
         case "Novinky": bread_src = "news.html";
             break;
-        case "O Lei": bread_src = "lea_about.html";
+        case "O Lei": bread_src = "../views/lea_about.html";
             break;
-        case "O Dominikovi": bread_src = "dominik_about.html";
+        case "O Dominikovi": bread_src = "../views/dominik_about.html";
             break;
-        case "O Milošovi": bread_src = "milos_about.html";
+        case "O Milošovi": bread_src = "../views/milos_about.html";
             break;
-        case "Dominikova hra": bread_src = "dominik_game.html";
+        case "Dominikova hra": bread_src = "../views/dominik_game.html";
             break;
-        case "Leina hra": bread_src = "lea_game.html";
+        case "Leina hra": bread_src = "../views/lea_game.html";
             break;
-        case "Milošova hra": bread_src = "milos_game.html";
+        case "Milošova hra": bread_src = "../views/milos_game.html";
     }
     if(oldItems[l] === undefined)continue;
     console.log(l+1 + " " + oldItems.length+ " "+oldItems[l]);
@@ -102,10 +102,3 @@ for (var l = oldItems.length - 6; l < oldItems.length; l++) {
     brdcb_ol.appendChild(brdcb_li[l]);
 }
 
-    var numVisits = GetCookie("numVisits"); 
-      if (numVisits) numVisits = parseInt(numVisits) + 1; 
-      else numVisits = 1; // the value for the new cookie 
-  
-  // Show the number of visits 
-      if (numVisits==1) console.log("This is your first visit."); 
-      else console.log("You have visited this page " + numVisits + " times."); 

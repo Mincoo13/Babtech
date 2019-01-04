@@ -1,0 +1,43 @@
+#box {
+	display: block;
+	margin: 0 auto;
+}
+
+#base {
+	opacity: 0.5;
+}
+
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.puzzle{
+	opacity: 0.7;
+	display: none;
+}
+
+.piece:hover{
+	cursor: all-scroll;
+}
+
+.time{
+	text-align: center;
+	font-size:30px;
+	padding:8px;
+}
+
+#time{
+	margin:0px;
+}
+
+.button-box{
+	text-align: center;
+}
+
+.actual-button{
+	width:75%;
+	height: 100%;
+	font-size: 20px !important;
+}

@@ -1,0 +1,189 @@
+body{
+    min-height: 100%;
+    margin: 0px;
+    background-color: white !important;
+}
+
+html{
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+   }
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.black{
+    color:black !important;
+}
+
+.content{
+    text-align: center !important;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.fixka{
+    position:sticky !important;
+}
+
+img{
+    max-height: 300px;
+    margin: 0px;
+}
+
+.box{
+    background: whitesmoke;
+}
+
+.breadcrumbs{
+    background: white !important;
+}
+
+ .my_photo {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.list_image {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+aside {
+    text-align: center;
+    background-color: whitesmoke;
+    color: gray;
+    width: 250px;
+    float: right;
+    padding: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.center {
+   margin-bottom: 20px !important;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////PODSTRANKA O DOMINIKOVI //////////////////////////////////////////////////////////////////*/
+/*fotografia*/
+.fotka {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+    float:left;
+}
+.fotka:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+#odstavvec1{
+    padding:2%;
+    background-color: rgba(255, 0, 0, 0.233) !important;
+    border-radius: 20px;
+    margin-left:10%;
+
+}
+#odstavvec2{
+    padding:2%;
+    background-color: rgba(0, 255, 255, 0.363) !important;
+    margin-left:2%;
+    border-radius: 20px;
+
+}
+#odstavvec3{
+    padding:2%;
+    background-color: rgba(137, 43, 226, 0.26) !important;
+    margin-left:2%;
+    border-radius: 20px;
+}
+
+.img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#date {
+    margin-bottom: 30px;
+}
+
+#result, #result_2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    position:relative;
+    bottom: 0;
+    margin-top: 10px;
+    width:100%;
+    background-color: whitesmoke;
+    color: white;
+    text-align: center;
+    padding: 15px;
+ }
+
+ .footer-text{
+    color: gray;
+    line-height: 2;
+ }
+
+ .footer-news{
+    position:relative;
+    bottom: 0;
+    margin-top: 40px;
+    width:100%;
+    background-color: whitesmoke;
+    color: white;
+    text-align: center;
+    padding: 15px;
+ }

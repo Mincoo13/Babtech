@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Domov</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/main.css" />
+    <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand black" href="#">WebTech</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul id="menu" class="nav navbar-nav">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="container content">
+            <nav aria-label="breadcrumb breadcrumbs">
+                <ol id= "brdcb" class="breadcrumb breadcrumbs">
+                    <!--  -->
+                </ol>
+            </nav>
+            <h1 class="display-1">Vitajte na našej stránke!</h1>
+            <div class="row">
+                <div class="col-xs-4 col-sm-4"><img src="../images/profile-picture.jpg" class="img-circle img-responsive center" alt="Miloš Medo"> </div>
+                <div class="col-xs-4 col-sm-4"><img src="../images/me.jpg" class="img-circle img-responsive center" alt="Lea Lapšanská"></div>
+                <div class="col-xs-4 col-sm-4"><img src="../images/obrazok.jpg" class="img-circle img-responsive center" alt="Dominik Janecký"></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <p><b>Zisti zadaním mena kto má kedy meniny</b></p>
+                    <input placeholder="Zadaj meno: napr. Jana" id="name" class="form-control" >
+                    <br>
+                    <button onclick="findDay()" class="btn btn-default">Zisti meniny podľa mena</button>
+                    <div id="result"></div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <p><b>Zisti zadaním dátumu kto má kedy meniny</b></p>
+                    <input placeholder="Zadaj deň: napr. 1.1/04.05" id="day" class="form-control" >
+                    <br>
+                    <button onclick="findName()" class="btn btn-default">Zisti meniny podľa dátumu</button>
+                    <div id="result_2"></div>
+                </div>
+            </div>
+            <br><p id="counter"></p>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <span class="footer-text">Vytvorené 2019 |  Lea Lapšanská, Miloš Medo, Dominik Janecký | FEI API</span>
+    </footer>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+    <script src="../scripts/dropdown.js"></script>
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/meniny.js"></script>
+</body>
+
+</html>

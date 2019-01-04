@@ -4,9 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>O Dominikovi</title>
+    <title>Dominikova hra</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/janecky_game.css" />
     <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
 </head>
 
@@ -38,13 +39,35 @@
                             
                         </ol>
                     </nav>
+            <div id="box">
+                <div id="control">
+                    <div id = "flexBox">
+                        <button id="start" class="button" onclick="startGame()">Play</button>
+                        <div id="timer">&nbsp;</div>
+                        <button id="demo" class="button" onclick="demoGame()">Demo</button>
+                    </div>
+                </div>
+
+                <div id="gameBox">
+                    <div id = "endBox"></div>
+                    <div id = "endBoxText">
+                        <h3 id = "endText">Congratulations!</h3>
+                        <p id = "endTime"></p>
+                    </div>
+                    <div id="game"></div>
+                </div>
+            </div>
         </div>
     </main>
+    <footer class="footer">
+        <span class="footer-text">Vytvorené 2019 | <b>Dominik Janecký</b> | FEI API</span>
+    </footer>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
-    <script src="dropdown.js"></script>
-    <script src="script.js"></script>
-    <!-- <script src="meniny.js"></script> -->
+    <script src="../scripts/dropdown.js"></script>
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/janecky_jason.js"></script>
+    <script src="../scripts/janecky_game.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Leina hra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/lapsanska_game.css" />
+    <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand black" href="#">WebTech</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul id="menu" class="nav navbar-nav">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+                <nav aria-label="breadcrumb breadcrumbs">
+                        <ol id= "brdcb" class="breadcrumb breadcrumbs">
+                            
+                        </ol>
+                    </nav>
+        </div>
+        <div id="wrapper">
+                <div id="puzzle_area"><div id="puzzle_bg"></div></div>
+                <div id="puzzle_pieces"> <img src="../images/img/1.png" alt="" srcset="" id="p_0">
+                    <img src="../images/img/2.png" alt="" srcset="" id="p_1">
+                    <img src="../images/img/3.png" alt="" srcset="" id="p_2">
+                    <img src="../images/img/4.png" alt="" srcset="" id="p_3">
+                    <img src="../images/img/5.png" alt="" srcset="" id="p_4">
+                    <img src="../images/img/6.png" alt="" srcset="" id="p_5">
+                    <img src="../images/img/7.png" alt="" srcset="" id="p_6">
+                    <img src="../images/img/8.png" alt="" srcset="" id="p_7">
+                    <img src="../images/img/9.png" alt="" srcset="" id="p_8">
+                    <img src="../images/img/10.png" alt="" srcset="" id="p_9">
+                    <img src="../images/img/11.png" alt="" srcset="" id="p_10">
+                    <img src="../images/img/12.png" alt="" srcset="" id="p_11"></div>
+                <div class="clear"></div>
+            
+                <div id="timer">
+                    <label id="minutes">00</label>:<label id="seconds">00</label>
+                </div>
+            <button id="start" onclick="start()" class="btn btn-default">Začať hru</button>
+            <button id="reset" onclick="reset()" class="btn btn-default">Resetovať hru</button>
+            <button id="demo" onclick="demo(0)" class="btn btn-default">Demo</button>
+            </div>
+    </main>
+   <footer class="footer">
+       <span class="footer-text">Vytvorené 2019 |  <b>Lea Lapšanská</b> | FEI API</span>
+    </footer>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+    <script src="../scripts/dropdown.js"></script>
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/lapsanska_game.js"></script>
+    <!-- <script src="meniny.js"></script> -->
+</body>
+
+</html>

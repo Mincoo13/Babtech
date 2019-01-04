@@ -23,12 +23,12 @@ var menu_items = `{
                         {
                             "id": "3.1.1",
                             "name": "O mne",
-                            "src": "dominik_about.html"
+                            "src": "../views/dominik_about.html"
                         },
                         {
                             "id": "3.1.2",
                             "name": "Moja hra",
-                            "src": "dominik_game.html"
+                            "src": "../views/dominik_game.html"
                         }
                     ]
                 },
@@ -40,12 +40,12 @@ var menu_items = `{
                         {
                             "id": "3.2.1",
                             "name": "O mne",
-                            "src": "lea_about.html"
+                            "src": "../views/lea_about.html"
                         },
                         {
                             "id": "3.2.2",
                             "name": "Moja hra",
-                            "src": "lea_game.html"
+                            "src": "../views/lea_game.html"
                         }
                     ]
                 },
@@ -57,12 +57,12 @@ var menu_items = `{
                         {
                             "id": "3.3.1",
                             "name": "O mne",
-                            "src": "milos_about.html"
+                            "src": "../views/milos_about.html"
                         },
                         {
                             "id": "3.3.2",
                             "name": "Moja hra",
-                            "src": "milos_game.html"
+                            "src": "../views/milos_game.html"
                         }
                     ]
                 }
